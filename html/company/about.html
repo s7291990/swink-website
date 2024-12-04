@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="wrapper"><!-- start : wrapper -->
+<div class="wrapper sub"><!-- start : wrapper -->
 
     <header><!-- start : header -->
         <div class="rela">
@@ -180,56 +180,57 @@
 
     <div class="container" id="contents"><!-- start : container -->
 
-        <section class="main-slide-wrap">
-            <!-- Swiper -->
-            <div id="main-slide-wrap" class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="main-bg-item01"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="main-bg-item02"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="main-bg-item03"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="main-bg-item04 "></div>
-                    </div>
-                </div>
-            </div>
-            <script>
-                var mainSlideWrap = new Swiper('#main-slide-wrap', {
-                    loop: true,
-                    /*
-                    speed: 1000,
-                    autoplay: {
-                        delay: 4000,
-                        disableOnInteraction: false,
-                    },
-                    */
-                    cssMode: true,
-                    mousewheel: true,
-                    keyboard: true,
-                    slidesPerView: "1",
-                    spaceBetween: 0,
-                });
-                //mainSlideWrap.slidePrev()
-            </script>
+        <section class="abt-pic-wrap">
+            <img src="../../assets/image/etc/etc-abt-list01.jpg" />
+        </section>
+        <section class="abt-desc-wrap">아름다운 생활을 창조하는 최고의 기업’이라는 비전 아래 시작된 건축전문자재기업 이건(EAGON)은
+            <br />안정적인 기술력과 시대를 앞서가는 디자인으로 두터운 마니아층을 형성해왔습니다.
+            <br />실용적이면서 뛰어난 기술력이 돋보이는 이건창호,
+            <br />직접 심고 가꾼 원목으로 만드는 마루 전문 브랜드 이건마루,
+            <br />미니멀한 디자인에 공간 활용성이 돋보이는 인테리어 시스템 도어 브랜드 이건라움까지,
+            <br />이건의 연구진들은 사용자가 공간에 대해 항상 연구하고 오래도록 사랑받는 아이템을 개발하기 위해 최선을 다하고 있습니다.
+        </section>
 
+        <section class="abt-prod-wrap">
+            <ul>
+                <li>
+                    <div class="spic"><img src="../../assets/image/etc/etc-abt-list02.jpg" /></div>
+                    <div class="sdesc"><strong>이건창호</strong>는 공간에 대한 사용자의 꿈과 아름다움을 완성하여
+                        그 다음 세대까지 함께할 수 있는 지속 가능한 제품을 사용자에게
+                        제공하는 프리미엄 창호 브랜드입니다.</div>
+                    <a href="javascript:void(0)">
+                        <strong>창호</strong>
+                        <span>브랜드 소개 바로가기</span>
+                        <img src="../../assets/image/ico/ico-arr-right.png" />
+                    </a>
+                </li>
+                <li>
+                    <div class="spic"><img src="../../assets/image/etc/etc-abt-list03.jpg" /></div>
+                    <div class="sdesc"><strong>이건마루</strong>는 지속가능한 경영을 토대로 직접 나무를 심고 가꾸며,
+                        50년의 기술력과 노하우로 자연의 아름다움을 담은 예술적인 공간을
+                        만들어 나갑니다.</div>
+                    <a href="javascript:void(0)">
+                        <strong>마루</strong>
+                        <span>브랜드 소개 바로가기</span>
+                        <img src="../../assets/image/ico/ico-arr-right.png" />
+                    </a>
+                </li>
+                <li>
+                    <div class="spic"><img src="../../assets/image/etc/etc-abt-list04.jpg" /></div>
+                    <div class="sdesc"><strong>이건라움</strong>은 지속적으로 변화하는 라이프스타일을 위한
+                        프리미엄 실내용 시스템 도어 전문 브랜드입니다.
+                    </div>
+                    <a href="javascript:void(0)">
+                        <strong>라움</strong>
+                        <span>브랜드 소개 바로가기</span>
+                        <img src="../../assets/image/ico/ico-arr-right.png" />
+                    </a>
+                </li>
+            </ul>
         </section>
 
 
-
         <footer><!-- start : footer -->
-            <div class="mob-sns-list">
-                <ul>
-                    <li><a href="javascript:void(0)"><img src="../../assets/image/ico/ico-sns-list01.png" /></a></li>
-                    <li><a href="javascript:void(0)"><img src="../../assets/image/ico/ico-sns-list02.png" /></a></li>
-                    <li><a href="javascript:void(0)"><img src="../../assets/image/ico/ico-sns-list03.png" /></a></li>
-                    <li><a href="javascript:void(0)"><img src="../../assets/image/ico/ico-sns-list04.png" /></a></li>
-                </ul>
-            </div>
 
             <div class="rela">
                 <div class="lt-item">
@@ -246,9 +247,6 @@
                         <li><a href="javascript:void(0)">개인정보처리방침</a></li>
                         <li><a href="javascript:void(0)">이용약관</a></li>
                     </ul>
-
-
-
                     <ul class="info-list">
                         <li>
                             <span>주소. 서울특별시 마포구 동교로 161(서교동) 이건하우스</span>
@@ -282,11 +280,139 @@
 
 </div>
 
-<!--
-<div class="mob-topbtn-wrap">
-    <button type="button" class="btn-topbtn"><i class="el-icon-top"></i></button>
+<div class="fixed-item-wrap">
+    <ul>
+        <li>
+            <a href="javascript:void(0)" class="btn-allmenu">
+                <div class="sico"></div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">로그인</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">통합검색</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">다운로드</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">설계지원문의</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">제품비교</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"></div>
+                <div class="stxt">기술자료</div>
+            </a>
+        </li>
+    </ul>
+
+    <button type="button" class="btn-topbtn"><img src="../../assets/image/ico/ico-topbtn.png" /></button>
 </div>
--->
+
+<div class="mob-fixed-bottom">
+    <ul>
+        <li>
+            <a href="javascript:void(0)">
+                <div class="sico"><img src="../../assets/image/ico/ico-side-fixed-list05.png" /></div>
+                <div class="stxt">설계지원문의</div>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)" class="btn-mob-more">
+                <i class="el-icon-plus"></i>
+            </a>
+            <div class="slist">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <div class="sico"><img src="../../assets/image/ico/ico-side-fixed-list02.png" /></div>
+                            <div class="stxt">로그인</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <div class="sico"><img src="../../assets/image/ico/ico-side-fixed-list03-mob.png" /></div>
+                            <div class="stxt">통합검색</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <div class="sico"><img src="../../assets/image/ico/ico-side-fixed-list04.png" /></div>
+                            <div class="stxt">다운로드</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <div class="sico"><img src="../../assets/image/ico/ico-side-fixed-list07.png" /></div>
+                            <div class="stxt">기술자료</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <button type="button" class="btn-topbtn">
+                <i class="el-icon-arrow-up"></i>
+                <span>TOP</span>
+            </button>
+        </li>
+    </ul>
+</div>
+
+
+<script>
+
+    $(function(){
+        //.academy-header-wrap  //abt-pic-wrap
+    });
+    window.onload = function(){
+        AOS.init({
+            easing: 'ease-in-out-sine',
+            disable: function() {
+                //var maxWidth = 1024;
+                //return window.innerWidth < maxWidth;
+            }
+        });
+
+        var h = window.innerHeight - 97 - 147 - 0;
+        $(".abt-pic-wrap").css("height", h+"px");
+        /*
+        var $grid = $('.grid').isotope({
+            itemSelector: 'li',
+            resizable: true,
+            percentPosition: true,
+            masonry: {
+                columnWidth:0
+            }
+        });
+        */
+    }
+    $(function(){
+        $(window).on("resize", function(){
+            var h = window.innerHeight - 97 - 147 - 0;
+            $(".abt-pic-wrap").css("height", h+"px");
+        });
+    });
+</script>
 
 </body>
-</html>
+</html> 
