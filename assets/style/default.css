@@ -212,34 +212,6 @@ header .side-cont.on .btn-total-nav span:nth-of-type(3) {
 }
 header .side-cont.on{position:fixed;right:0;left:auto;}
 
-/*하단영역*/
-footer{margin-top:260px;width:100%;height:auto;overflow:hidden;padding-bottom:0;border-top:1px solid #555;background:#fff;}
-footer .rela{width:calc( 100% - 160px );height:auto;overflow:Hidden;margin:80px auto;display:flex;justify-content:space-between;align-items:center;}
-footer .rela .lt-item{width:1000px;height:auto;overflow:Hidden;}
-footer .rela .lt-item .flogo{width:100%;height:auto;overflow:hidden;}
-footer .rela .lt-item .flogo:before{content:"";width:100px;height:50px;overflow:hidden;display:block;background:url(../image/etc/etc-flogo.svg) no-repeat center center;    background-size: cover;}
-footer .rela .lt-item .flogo img{display:none;}
-footer .rela .lt-item .fnb-list{margin-top:75px;width:100%;height:auto;overflow:hidden;display:flex;justify-content:flex-start;align-items:center;}
-footer .rela .lt-item .fnb-list li{margin-left:55px;}
-footer .rela .lt-item .fnb-list li:first-child{margin-left:0;}
-footer .rela .lt-item .fnb-list li a{font-size:15px;color:#3e3e3e;font-weight:500;font-family: "Gotham-Medium";}
-footer .rela .lt-item .fnb-list + .fnb-list{margin-top:24px;}
-footer .rela .lt-item .fnb-list + .fnb-list li{margin-left:40px;}
-footer .rela .lt-item .fnb-list + .fnb-list li:first-child{margin-left:0;}
-footer .rela .lt-item .fnb-list + .fnb-list li a{font-size:16px;font-weight:400;}
-
-footer .rela .lt-item .info-list{width:100%;height:auto;overflow:hidden;margin-top:50px;}
-footer .rela .lt-item .info-list li{font-size:13px;color:#3e3e3e;margin-top:10px;width:100%;height:auto;overflow:hidden;display:flex;justify-content:flex-start;align-items:center;}
-footer .rela .lt-item .info-list li:first-child{margin-top:0;}
-footer .rela .lt-item .info-list li span{font-size:13px;color:#3e3e3e;margin-right:13px;}
-
-footer .rela .rt-item{width:100%;flex:1;height:auto;overflow:Hidden;display:flex;justify-content:flex-end;align-items:flex-end;flex-direction:column;}
-footer .rela .rt-item .sns-list{width:200px;height:auto;overflow:hidden;}
-footer .rela .rt-item .sns-list ul{width:100%;height:auto;overflow:hidden;display:flex;justify-content:space-between;align-items:center;}
-footer .rela .rt-item .sns-list ul li{width:30px;height:30px;overflow:Hidden;}
-footer .rela .rt-item .sns-list ul li a{}
-footer .rela .rt-item .select{margin-top:30px;width:200px;height:38px;border:1px solid #3f3f3f;overflow:hidden;padding-left:15px;font-size:15px;color:#1d1d1b;}
-
 @-webkit-keyframes pulse {
 
     0% {
@@ -348,13 +320,6 @@ footer .rela .rt-item .select{margin-top:30px;width:200px;height:38px;border:1px
 @media (max-width:1300px) {
     header .rela{width:100%;margin:0 auto;}
     .section .rela{width:calc( 100% - 40px );margin:0 auto;}
-    footer{margin-top:130px;}
-    footer .fnb-list{width:calc( 100% - 40px );padding:0 20px;}
-    footer .rela{width:calc( 100% - 40px );padding:20px 20px;margin:0;position:relative;}
-    footer .rela .rt-item{position:absolute;right:20px;bottom:20px;}
-    footer .rela .lt-item .fnb-list{margin-top:20px;padding:0;}
-    footer .rela .lt-item .flogo{}
-    footer .rela .lt-item{width:100%;}
 }
 @media (max-width:1024px) {
     /*공통 헤더*/
@@ -469,38 +434,7 @@ footer .rela .rt-item .select{margin-top:30px;width:200px;height:38px;border:1px
 
     .up + .mob-topbtn-wrap{opacity:0;transition:all .5s;}
     .down + .mob-topbtn-wrap{opacity:1;}
-    footer{margin-top:80px;}
-    footer .rela{background:#313131;padding:10px 0 70px 0;width:100%;display:block;}
-    footer .rela .lt-item .flogo{margin:20px 0 0 20px;width:100px;height:50px;padding:0;}
-    footer .rela .lt-item .flogo img{width:100px;display:none;}
 
-    footer .rela .lt-item .fnb-list{margin:20px 0 0 0;width:calc( 100% - 40px );padding:0 20px;height:auto;overflow:Hidden;display:block;}
-    footer .rela .lt-item .fnb-list li{background:transparent;margin:5px 0 0 10px;padding:0;width:auto;height:auto;overflow:hidden;float:left;display:flex;justify-content:flex-start;align-items:center;position:relative;}
-    footer .rela .lt-item .fnb-list li:first-child{margin-left:0;}
-    footer .rela .lt-item .fnb-list li:nth-child(3){display:none;}
-    footer .rela .lt-item .fnb-list li:before{display:none;content:"";width:1px;height:100%;overflow:Hidden;position:absolute;left:0;top:0;background:rgba(255,255,255,.2);}
-    footer .rela .lt-item .fnb-list li:nth-child(1):before{}
-    footer .rela .lt-item .fnb-list li:nth-child(4):before{}
-    footer .rela .lt-item .fnb-list li a{font-size:10px;color:#707070;font-weight:300;}
-    footer .rela .lt-item .fnb-list + .fnb-list{margin-top:0;}
-    footer .rela .lt-item .fnb-list + .fnb-list li{width:auto;margin-left:10px;background:transparent;}
-    footer .rela .lt-item .fnb-list + .fnb-list li:first-child{margin-left:0px;}
-    footer .rela .lt-item .fnb-list + .fnb-list li a{font-size:10px;color:#707070;}
-    footer .rela .rt-item{position:absolute;bottom:auto;top:100px;left:0px;}
-    footer .rela .rt-item .select{display:None;max-width:500px;width:100%;margin-top:10px;}
-    footer .rela .lt-item .info-list{width:calc( 100% - 40px );margin:20px auto 0 auto;}
-    footer .rela .lt-item .info-list li{font-size:10px;display:block;color:#707070}
-    footer .rela .lt-item .info-list li span{font-size:10px;display:block;color:#707070}
-    footer .rela .rt-item{justify-content:center;align-items:center;width:calc( 100% - 40px );padding:0 20px;}
-    footer .rela .rt-item .sns-list{margin:20px auto 0 auto;width:100%;}
-    footer .rela .rt-item .sns-list ul{justify-content: flex-start;}
-    footer .rela .rt-item .sns-list ul li{margin-right:20px;opacity:.3;}
-    footer .rela .rt-item .sns-list ul li a{height:30px;display:block;width:30px;}
-    footer .rela .rt-item .sns-list ul li a img{visibility:hidden;}
-    footer .rela .rt-item .sns-list ul li:nth-child(1) a{background:url(../image/ico/ico-sns-list01-mob.png) no-repeat center center;background-size:25px 25px;}
-    footer .rela .rt-item .sns-list ul li:nth-child(2) a{background:url(../image/ico/ico-sns-list02-mob.png) no-repeat center center;background-size:25px 25px;}
-    footer .rela .rt-item .sns-list ul li:nth-child(3) a{background:url(../image/ico/ico-sns-list03-mob.png) no-repeat center center;background-size:25px 25px;}
-    footer .rela .rt-item .sns-list ul li:nth-child(4) a{background:url(../image/ico/ico-sns-list04-mob.png) no-repeat center center;background-size:25px 25px;}
     .sitemap-item-wrap.ing{display:none;}
 
 }
