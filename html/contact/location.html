@@ -182,53 +182,55 @@
 
         <div class="rela">
             <div class="side-item-wrap">
-                <h2>COMPANY</h2>
+                <h2> class="on"</h2>
                 <ul>
-                    <li><a href="javascript:void(0)">CEO 인사말</a></li>
-                    <li><a href="javascript:void(0)">경영이념</a></li>
-                    <li><a href="javascript:void(0)">비전과 전략</a></li>
-                    <li><a href="javascript:void(0)">주요 연혁</a></li>
-                    <li><a href="javascript:void(0)">조직도</a></li>
-                    <li><a href="javascript:void(0)">CI</a></li>
-                    <li><a href="javascript:void(0)" class="on">자격면허</a></li>
-                    <li><a href="javascript:void(0)">특허</a></li>
-                    <li><a href="javascript:void(0)">자료 다운로드</a></li>
-                    <li><a href="javascript:void(0)">관계 회사</a></li>
-                    <li><a href="javascript:void(0)">파트너사</a></li>
+                    <li><a href="javascript:void(0)" class="on">연락처</a></li>
+                    <li><a href="javascript:void(0)">비즈니스 고객상담</a></li>
+                    <li><a href="javascript:void(0)">AS문의</a></li>
+                    <li><a href="javascript:void(0)">FAQ</a></li>
                 </ul>
             </div>
             <div class="content-item-wrap">
                 <section class="sub-title-wrap">
-                    <h2>자격면허</h2>
+                    <h2>CONTACT</h2>
                 </section>
 
-                <section class="license-item-wrap">
-                    <div class="mdesc">다양한 자격 면허와 인증을 통해 신뢰할 수 있는 기술력과 전문성을 갖추고
-                        <br />고객에게  <span>최상의 솔루션</span> 을 제공합니다.
+                <section class="location-item-wrap">
+                    <div class="mtit">찾아오시는 길</div>
+
+                    <div class="map-item-wrap">
+                        <!-- 1. 지도 노드 -->
+                        <div id="daumRoughmapContainer1733531836732" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                        <!--
+                            2. 설치 스크립트
+                            * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                        -->
+                        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                        <!-- 3. 실행 스크립트 -->
+                        <script charset="UTF-8">
+                            new daum.roughmap.Lander({
+                                "timestamp" : "1733531836732",
+                                "key" : "2mfvu",
+                                "mapWidth" : "640",
+                                "mapHeight" : "360"
+                            }).render();
+                        </script>
                     </div>
+                    <div class="addr">서울특별시 마포구 매봉산로37 DMC 산학협력센터</div>
 
                     <ul>
                         <li>
-                            <div class="spic"><img src="../../assets/image/etc/etc-license-list01.png" alt="" /></div>
-                            <div class="sdesc">벤처기업인증</div>
+                            <div class="key">Tel</div>
+                            <div class="value">02-364-8777</div>
                         </li>
                         <li>
-                            <div class="spic"><img src="../../assets/image/etc/etc-license-list02.png" alt="" /></div>
-                            <div class="sdesc">기업부설연구소</div>
-                        </li>
-                        <li>
-                            <div class="spic"><img src="../../assets/image/etc/etc-license-list03.png" alt="" /></div>
-                            <div class="sdesc">이노비인증</div>
-                        </li>
-                        <li>
-                            <div class="spic"><img src="../../assets/image/etc/etc-license-list04.png" alt="" /></div>
-                            <div class="sdesc">기술평가 우수기업</div>
-                        </li>
-                        <li>
-                            <div class="spic"><img src="../../assets/image/etc/etc-license-list05.png" alt="" /></div>
-                            <div class="sdesc">병역특례 지정업체</div>
+                            <div class="key">Mail</div>
+                            <div class="value">xy@swink.co.kr</div>
                         </li>
                     </ul>
+
 
                 </section>
             </div>
@@ -238,7 +240,9 @@
 
     </main><!-- end : container -->
 
+
 </div>
+
 
 
 </body>
