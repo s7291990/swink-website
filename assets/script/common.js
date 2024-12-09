@@ -93,7 +93,7 @@ common = {
 
         });
         $("body").on("mouseleave", "header", function(ev){
-            ev.preventDefault();
+            //ev.preventDefault();
             //ev.stopPropagation();
             $("header").removeClass("ing");
             $(".wrapper").removeClass("menu-active");
@@ -109,7 +109,6 @@ common = {
         });
         $("body").on("click", ".on .gnb-list>li>a", function(ev){
             ev.preventDefault();
-            //ev.stopPropagation();
             var ck = $(this).parents("li").eq(0).hasClass("on");
             if(ck){
                 $(this).parents("li").eq(0).removeClass("on");
